@@ -1,6 +1,4 @@
-__author__ = 'Peter'
 from logical_tier import Tracking_system
-
 
 import wx
 from presentation_tier import Output
