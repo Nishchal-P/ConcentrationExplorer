@@ -1,0 +1,36 @@
+dataset_J_ts_avg <- read.csv("comparison time_spent_sec against average concentration.csv",header = TRUE)
+plot(dataset_J_ts_avg,pch=16)
+dev.copy(jpeg,filename="comparison_time_spent_sec_against_average_concentration.jpg");
+dev.off()
+
+dataset_J_ts_std <- read.csv("comparison time_spent_sec against std concentration.csv",header = TRUE)
+plot(dataset_J_ts_std,pch=16)
+dev.copy(jpeg,filename="comparison_time_spent_sec_against_std_concentration.jpg");
+dev.off()
+
+dataset_J <- read.csv("comparison amount used programs with avg concentration.csv",header = TRUE)
+plot(dataset_J,pch=16)
+dev.copy(jpeg,filename="comparison_amount_used_programs_with_avg_concentration.jpg");
+dev.off()
+
+dataset_J <- read.csv("comparison amount used programs with std concentration.csv",header = TRUE)
+plot(dataset_J,pch=16)
+dev.copy(jpeg,filename="comparison_amount_used_programs_with_std_concentration.jpg");
+dev.off()
+
+
+dataset_J <- read.csv("comparison concentration difference when switch between activities.csv",header = TRUE)
+plot(dataset_J,pch=16)
+dev.copy(jpeg,filename="comparison_concentration_difference_when_switch_between_activities.jpg");
+dev.off()
+
+dataset_J <- read.csv("comparision RescueTime amount concentration avg.csv",header = TRUE)
+plot(dataset_J,pch=16)
+dev.copy(jpeg,filename="comparision_RescueTime_amount_concentration_avg.jpg");
+dev.off()
+
+dataset_J <- read.csv("comparision RescueTime amount concentration std.csv",header = TRUE)
+plot(dataset_J,pch=16)
+dev.copy(jpeg,filename="comparision_RescueTime_amount_concentration_std.jpg");
+dev.off()
+
